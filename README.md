@@ -4,6 +4,12 @@
 
 This document outlines a strategy for evaluating early-stage drug candidates using physicochemical descriptors. The approach integrates bioavailability profiling, compound filtering, radar plots, and traffic light tables, drawing inspiration from SwissADME and medicinal chemistry literature.
 
+## Scientific Rationale
+
+This method is inspired by the SwissADME radar plot and expands it to include relaxed cutoffs suitable for parenteral candidates. It incorporates insights from drug metabolism, permeability studies, and medicinal chemistry best practices:
+
+> "Direct properties like log P and log S reflect actual behavior in vivo. Indirect ones like MW and Fsp³ are valuable design levers." — Based on medicinal chemistry literature.
+
 ## Objectives
 
 * Identify compounds suitable for **first in vivo studies**.
@@ -60,17 +66,6 @@ A `pandas.Styler`-based table was created to show each compound’s status on ea
 | log S      | Solubility (direct)         | Poor log S → formulation risk                                |
 | RotB       | Flexibility (indirect)      | Too flexible → low oral absorption                           |
 | Fsp³       | 3D character (indirect)     | Low Fsp³ → flat, likely promiscuous                          |
-
-## Scientific Rationale
-
-This method is inspired by the SwissADME radar plot and expands it to include relaxed cutoffs suitable for parenteral candidates. It incorporates insights from drug metabolism, permeability studies, and medicinal chemistry best practices:
-
-> "Direct properties like log P and log S reflect actual behavior in vivo. Indirect ones like MW and Fsp³ are valuable design levers." — Based on medicinal chemistry literature.
-
-## Deliverables
-
-* 📊 Radar plots (oral and parenteral criteria)
-* ✅ Traffic signal tables for:
 
 ## Future Directions
 
