@@ -49,14 +49,11 @@ This assay is critical for evaluating:
 
 | Column Name                    | Meaning / Use                                 |
 |-------------------------------|-----------------------------------------------|
-| `Molecule Name`               | Identifier of the compound                    |
-| `Molecular weight (g/mol)`    | Used for permeability stratification          |
-| `log D`                       | Lipophilicity at pH 7.4 (vs. log P)            |
 | `Caco-2 Papp A→B (nm/s)`      | Permeability in absorption direction          |
 | `Caco-2 Papp B→A (nm/s)`      | Permeability in efflux direction              |
 | `Efflux Ratio`                | B→A / A→B; >2 may indicate active efflux       |
 | `Recovery (%)`                | Assay mass balance; <80% suggests instability |
-| `log P`, `log S`, `TPSA`      | Additional predictors for permeability, solubility, and polarity |
+
 
 ---
 
