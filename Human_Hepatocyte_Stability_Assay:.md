@@ -28,8 +28,6 @@ A compound that is **rapidly metabolized in vitro** is likely to show **high cle
 
 ---
 
-## 🧠 Drug Hunter Insights
-
 ### ✅ Ideal Stability Thresholds
 
 | Metric | Interpretation |
@@ -42,10 +40,9 @@ A compound that is **rapidly metabolized in vitro** is likely to show **high cle
 ### 🔁 CLint vs t½
 
 - CLint and t½ are **inversely related**.
-- \( \text{t½} = \frac{\ln 2 \times V}{\text{CLint}} \) (if volume V is known).
-
----
-
+- Approximate formula:  
+  **t½ ≈ (0.693 × V) / CLint**  
+  (if volume V is known)
 ## 🧪 Use in Drug Discovery
 
 - **Low CLint** is preferred for oral drugs.
